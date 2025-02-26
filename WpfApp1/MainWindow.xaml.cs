@@ -50,8 +50,12 @@ public partial class MainWindow : Window
     {
         Application.Current.Shutdown();
     }
+
     private void MyButton_Click(object sender, RoutedEventArgs e)
     {
         MessageBox.Show("Button clicked!");
     }
+
+    // Add this line to declare the TextBoxContent
+    private TextBox TextBoxContent;
 }
